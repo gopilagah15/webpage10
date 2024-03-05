@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.menu-bar{
+    min-height: 8%;
+    background-color: yellow;
+}
+.menu-bar img{
+    width: 60px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: black;
+}
+.active{
+    color: white !important;
+}
+.navbar-toggler .fa{
+    color: white;
+}
+.navbar-toggler{
+    outline: none  !important;
+}
+.banner{
+    min-height: 77%;
+    color: rgb(2, 2, 1);
+}
+.banner img{
+    width: 100%;
+}
+.info{
+    margin: 24% auto;
+}
+.info h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.info a{
+    width: 135px;
+    color: rgb(10, 10, 9)  !important;
+    text-decoration: none !important;
+    padding: 15px 25px;
+    /* margin: 50px 10px !important; */ 
+    background: yellow !important;
+    border-radius: 15px; 
+}
+.info .second-btn{
+    border: 1px solid rgb(235, 230, 230) !important;
+    background: transparent !important;
+    color: blue !important;
+    transition: 0.5s;
+}
+.info .second-btn:hover{
+    background: yellow !important;
+    color: black  !important;
+    border: 1px solid white !important;
+}
+.footer-widget{
+    min-height: 15%;
+    background-image: linear-gradient(to right, yellow, rgb(228, 228, 10));
+    padding: 21px 0;
+    color: black;
+    display: inline-flex; 
+}
+.footer-text{
+    padding: 25px;
+}
+.footer-text .fa{
+    font-size: 25px;
+}
+.row{
+    margin: 0 !important;
+}
+@media only screen and (max-width:960px){
+    .footer-widget{
+        background-image: linear-gradient( yellow, rgb(228, 228, 10));
+    }
+}
